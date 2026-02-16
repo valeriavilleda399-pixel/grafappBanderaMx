@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México - Valeria Villeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-overlay"></div>
+
+    <h1 class="main-title">BANDERA DE MÉXICO</h1>
+
+    <div class="glass-card">
+        <div class="column">
+            <div class="header">
+                <label>Esperanza</label>
+                <div class="slider-container">
+                    <input type="range" id="rangeVerde" min="0" max="255" value="153">
+                </div>
+                <span id="txtVerde" class="hex-display">#009900</span>
+            </div>
+            <div id="boxVerde" class="stripe"></div>
+        </div>
+
+        <div class="column">
+            <div class="header">
+                <label>Unidad</label>
+                <span class="hex-display">#FFFFFF</span>
+            </div>
+            <div class="stripe white-stripe">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Coat_of_arms_of_Mexico.svg" alt="Escudo Nacional" class="escudo-img">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="header">
+                <label>Sangre de nuestros héroes nacionales</label>
+                <div class="slider-container">
+                    <input type="range" id="rangeRojo" min="0" max="255" value="157">
+                </div>
+                <span id="txtRojo" class="hex-display">#9D0000</span>
+            </div>
+            <div id="boxRojo" class="stripe"></div>
+        </div>
+    </div>
+
+    <footer class="user-footer">
+        Villeda Hernandez Valeria Abigail 24200103
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
